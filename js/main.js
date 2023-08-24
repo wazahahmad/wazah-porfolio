@@ -563,3 +563,8 @@
     })();
 
 })(document.documentElement);
+jQuery(function($) {
+    $( '.pswp__img' ).each(function () {
+        this.style.setProperty( 'width', 'none', 'important' );
+    });
+  });

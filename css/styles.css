@@ -3654,7 +3654,10 @@ img.u-pull-left {
     width   : 50%;
     padding : 0;
     margin  : 0;
+    padding: 10px;
+    
 }
+
 
 .folio-item {
     overflow : hidden;
@@ -3716,6 +3719,10 @@ img.u-pull-left {
     vertical-align : bottom;
     margin-bottom  : 0;
     transition     : all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    border-radius: 5px;
+    box-shadow: -1px 4px 13px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 4px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 13px 0px rgba(0,0,0,0.75);
 }
 
 /* portfolio info
